@@ -1,0 +1,37 @@
+Police des titres :
+	https://fonts.google.com/specimen/Merienda
+
+Couleurs : 
+	navbar : #061339
+    premier bloc : #B9CDFF + background
+    titre h1 : #FFF
+    autres titres : #2F4073
+	footer : #061339
+    tête chat défaut : #7885A5
+    tête chat hover : #061339
+
+_______________________________________
+
+CONSIGNES
+
+_______________________________________
+
+Vous devez intégrer la capture d'écran fournie à l’aide du framework CSS Bootstrap.
+Le client exige que le site soit adaptable sur mobile (responsive) et le formulaire devra préalablement être validé à l’aide de jQuery.
+
+
+1- Bootstrap inclut un carousel, c’est celui-ci qui devra être utilisé.
+
+
+2- Le formulaire contiendra deux champs :
+2.1. Un menu déroulant reprenant les prénoms des chats
+2.2. Une zone de texte permettant d’expliquer les raisons d’adoptions
+Lors de la validation du formulaire, l’internaute aura obligatoirement sélectionné le nom d’un chat pour que celui-ci soit validé.
+
+En cas de non-validation des champs, les bordures de ceux-ci deviennent rouge. Par ailleurs, lorsqu’un champ change, sa bordure reprendra sa couleur par défaut.
+
+Bonus :
+Remplacer le formulaire par un message de confirmation si les champs sont valides.
+
+
+3- Dans la zone du bas "Nos chats à adopter", la tête de chat devra changer de couleur (à l’aide d’une transition) au survol de l’ensemble de la zone.
