@@ -101,3 +101,58 @@ body div:last-of-type{
 .clear{
     clear: both;
 }
+
+@media (max-width: 768px){
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    main .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel-item{
+        flex-direction: unset !important;
+    }
+
+    body div:last-of-type {
+        padding: 0;
+        max-width: 100%;
+        height: fit-content;
+    }
+
+    .col-3{
+        max-width: 100%;
+        order: 1;
+    }
+
+    .col-8{
+        max-width: 100%;
+    }
+
+    footer{
+        height: auto;
+    }
+
+    footer img{
+        width: 100%;
+    }
+
+    footer .container{
+        padding: 0;
+    }
+}
