@@ -59,6 +59,7 @@ footer{
     height: 32em;
     margin-top: 5em;
     padding: 0 !important;
+    height: auto;
 }
 
 footer p:first-of-type{
@@ -77,6 +78,7 @@ footer div div:first-of-type{
 footer div div img{
     background-color: #7885A5;
     transition: background-color ease-in-out 0.7s;
+    width: 100%;
 }
 
 footer:hover img{
